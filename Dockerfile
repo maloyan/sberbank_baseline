@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu16.04
 
 RUN apt -y update
 RUN apt -y install -y --no-install-recommends apt-utils
